@@ -1,0 +1,1887 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { Image } from 'astro:assets';
+
+// Website screenshots
+import authPage from '../../assets/img/autonomo/website/Auth Page.png';
+import dashboardPage from '../../assets/img/autonomo/website/Dashboard page.png';
+import freelancersPage from '../../assets/img/autonomo/website/Freelancers page.png';
+import fullWebsite from '../../assets/img/autonomo/website/Full Website.png';
+import jobPage from '../../assets/img/autonomo/website/job page.png';
+
+// App screenshots
+import account from '../../assets/img/autonomo/App/Account.png';
+import applications from '../../assets/img/autonomo/App/Applications.png';
+import chat from '../../assets/img/autonomo/App/Chat.png';
+import appDashboard from '../../assets/img/autonomo/App/dashboard.png';
+---
+
+<Layout title="Autonomo — Digital Platform">
+
+    <main class="autonomo-page">
+
+        <!-- =====================================================
+             HERO
+        ====================================================== -->
+
+        <section class="autonomo-hero">
+
+            <div class="hero-glow glow-one"></div>
+            <div class="hero-glow glow-two"></div>
+
+            <div class="hero-content">
+
+                <div class="hero-tag">
+                    <span class="status-dot"></span>
+                    DIGITAL PLATFORM
+                </div>
+
+                <h1>
+                    Autonomo
+                    <span>Digital Experience</span>
+                </h1>
+
+                <p>
+                    A modern platform designed to connect businesses,
+                    freelancers and opportunities through a seamless
+                    digital experience.
+                </p>
+
+                <div class="hero-meta">
+
+                    <div>
+                        <small>PROJECT</small>
+                        <strong>Autonomo</strong>
+                    </div>
+
+                    <div>
+                        <small>TYPE</small>
+                        <strong>Web + App</strong>
+                    </div>
+
+                    <div>
+                        <small>FOCUS</small>
+                        <strong>Digital Platform</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <div class="scroll-line"></div>
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             INTRO
+        ====================================================== -->
+
+        <section class="intro-section">
+
+            <div class="intro-number">
+                00
+            </div>
+
+            <div class="intro-content">
+
+                <p class="section-label">
+                    THE PROJECT
+                </p>
+
+                <h2>
+                    A connected platform
+                    <em>built around people.</em>
+                </h2>
+
+                <p class="intro-description">
+                    Autonomo brings together the tools and experiences
+                    needed to discover opportunities, manage applications,
+                    communicate and work through one connected platform.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             WEBSITE SHOWCASE
+        ====================================================== -->
+
+        <section class="project-section website-section">
+
+            <div class="section-heading">
+
+                <div class="section-index">
+                    01
+                </div>
+
+                <div>
+
+                    <p class="section-label">
+                        WEBSITE
+                    </p>
+
+                    <h2>
+                        Web Experience
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <!-- Featured Website -->
+
+            <article class="featured-project">
+
+                <div class="featured-image">
+
+                    <Image
+                        src={fullWebsite}
+                        alt="Autonomo full website"
+                        width={1920}
+                        height={1080}
+                        loading="eager"
+                        decoding="async"
+                    />
+
+                    <div class="image-overlay">
+                        <span>FULL WEBSITE</span>
+                    </div>
+
+                </div>
+
+                <div class="featured-info">
+
+                    <div>
+                        <span class="project-category">
+                            PLATFORM
+                        </span>
+
+                        <h3>
+                            Complete Web Experience
+                        </h3>
+                    </div>
+
+                    <p>
+                        The complete Autonomo website experience,
+                        bringing the platform's main workflows together
+                        in one interface.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- Website Screens -->
+
+            <div class="website-grid">
+
+                <article class="website-card">
+
+                    <div class="website-image">
+
+                        <Image
+                            src={authPage}
+                            alt="Autonomo authentication page"
+                            width={1920}
+                            height={1080}
+                            loading="lazy"
+                            decoding="async"
+                        />
+
+                        <div class="card-number">
+                            01
+                        </div>
+
+                    </div>
+
+                    <div class="website-card-info">
+
+                        <span>AUTHENTICATION</span>
+
+                        <h3>
+                            Auth Page
+                        </h3>
+
+                        <p>
+                            Simple and focused access experience
+                            for platform users.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="website-card">
+
+                    <div class="website-image">
+
+                        <Image
+                            src={dashboardPage}
+                            alt="Autonomo dashboard page"
+                            width={1920}
+                            height={1080}
+                            loading="lazy"
+                            decoding="async"
+                        />
+
+                        <div class="card-number">
+                            02
+                        </div>
+
+                    </div>
+
+                    <div class="website-card-info">
+
+                        <span>DASHBOARD</span>
+
+                        <h3>
+                            Dashboard
+                        </h3>
+
+                        <p>
+                            A centralized workspace for managing
+                            platform activity.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="website-card">
+
+                    <div class="website-image">
+
+                        <Image
+                            src={freelancersPage}
+                            alt="Autonomo freelancers page"
+                            width={1920}
+                            height={1080}
+                            loading="lazy"
+                            decoding="async"
+                        />
+
+                        <div class="card-number">
+                            03
+                        </div>
+
+                    </div>
+
+                    <div class="website-card-info">
+
+                        <span>MARKETPLACE</span>
+
+                        <h3>
+                            Freelancers
+                        </h3>
+
+                        <p>
+                            Explore and discover professionals
+                            through the marketplace.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="website-card">
+
+                    <div class="website-image">
+
+                        <Image
+                            src={jobPage}
+                            alt="Autonomo job page"
+                            width={1920}
+                            height={1080}
+                            loading="lazy"
+                            decoding="async"
+                        />
+
+                        <div class="card-number">
+                            04
+                        </div>
+
+                    </div>
+
+                    <div class="website-card-info">
+
+                        <span>OPPORTUNITIES</span>
+
+                        <h3>
+                            Job Page
+                        </h3>
+
+                        <p>
+                            A focused experience for discovering
+                            available opportunities.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             APP SHOWCASE
+        ====================================================== -->
+
+        <section class="app-section">
+
+            <div class="app-background-glow"></div>
+
+            <div class="project-section">
+
+                <div class="section-heading">
+
+                    <div class="section-index">
+                        02
+                    </div>
+
+                    <div>
+
+                        <p class="section-label">
+                            MOBILE APPLICATION
+                        </p>
+
+                        <h2>
+                            App Experience
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="app-intro">
+
+                    <p>
+                        Designed to keep the most important platform
+                        experiences accessible wherever users are.
+                    </p>
+
+                </div>
+
+
+                <div class="app-grid">
+
+                    <!-- Account -->
+
+                    <article class="app-card">
+
+                        <div class="app-image">
+
+                            <div class="phone-glow"></div>
+
+                            <Image
+                                src={account}
+                                alt="Autonomo account screen"
+                                width={600}
+                                height={1200}
+                                loading="lazy"
+                                decoding="async"
+                            />
+
+                        </div>
+
+                        <div class="app-info">
+
+                            <div class="app-number">
+                                01
+                            </div>
+
+                            <div>
+                                <span>PROFILE</span>
+                                <h3>Account</h3>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Applications -->
+
+                    <article class="app-card">
+
+                        <div class="app-image">
+
+                            <div class="phone-glow"></div>
+
+                            <Image
+                                src={applications}
+                                alt="Autonomo applications screen"
+                                width={600}
+                                height={1200}
+                                loading="lazy"
+                                decoding="async"
+                            />
+
+                        </div>
+
+                        <div class="app-info">
+
+                            <div class="app-number">
+                                02
+                            </div>
+
+                            <div>
+                                <span>ACTIVITY</span>
+                                <h3>Applications</h3>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Chat -->
+
+                    <article class="app-card">
+
+                        <div class="app-image">
+
+                            <div class="phone-glow"></div>
+
+                            <Image
+                                src={chat}
+                                alt="Autonomo chat screen"
+                                width={600}
+                                height={1200}
+                                loading="lazy"
+                                decoding="async"
+                            />
+
+                        </div>
+
+                        <div class="app-info">
+
+                            <div class="app-number">
+                                03
+                            </div>
+
+                            <div>
+                                <span>COMMUNICATION</span>
+                                <h3>Chat</h3>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Dashboard -->
+
+                    <article class="app-card">
+
+                        <div class="app-image">
+
+                            <div class="phone-glow"></div>
+
+                            <Image
+                                src={appDashboard}
+                                alt="Autonomo mobile dashboard"
+                                width={600}
+                                height={1200}
+                                loading="lazy"
+                                decoding="async"
+                            />
+
+                        </div>
+
+                        <div class="app-info">
+
+                            <div class="app-number">
+                                04
+                            </div>
+
+                            <div>
+                                <span>OVERVIEW</span>
+                                <h3>Dashboard</h3>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             PROJECT DETAILS
+        ====================================================== -->
+
+        <section class="details-section">
+
+            <div class="details-grid">
+
+                <div class="details-title">
+
+                    <p class="section-label">
+                        PROJECT DETAILS
+                    </p>
+
+                    <h2>
+                        Built as a
+                        <em>connected ecosystem.</em>
+                    </h2>
+
+                </div>
+
+
+                <div class="details-list">
+
+                    <div class="detail-row">
+
+                        <span>01</span>
+
+                        <div>
+                            <small>PLATFORM</small>
+                            <strong>Web Application</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="detail-row">
+
+                        <span>02</span>
+
+                        <div>
+                            <small>EXPERIENCE</small>
+                            <strong>Responsive + Mobile</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="detail-row">
+
+                        <span>03</span>
+
+                        <div>
+                            <small>FOCUS</small>
+                            <strong>Freelance Marketplace</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="detail-row">
+
+                        <span>04</span>
+
+                        <div>
+                            <small>DESIGN</small>
+                            <strong>Modern Digital Interface</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             FINAL CTA
+        ====================================================== -->
+
+        <section class="project-ending">
+
+            <div class="ending-glow"></div>
+
+            <div class="ending-content">
+
+                <span>
+                    END OF CASE STUDY
+                </span>
+
+                <h2>
+                    Designed for
+                    <em>what comes next.</em>
+                </h2>
+
+                <a href="/portfolio" class="back-button">
+                    <span>←</span>
+                    Back to Portfolio
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</Layout>
+
+
+<style>
+
+/* ============================================================
+   GLOBAL
+============================================================ */
+
+.autonomo-page {
+    background: #070707;
+    color: #ffffff;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.autonomo-page * {
+    box-sizing: border-box;
+}
+
+
+/* ============================================================
+   HERO
+============================================================ */
+
+.autonomo-hero {
+    min-height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    position: relative;
+    overflow: hidden;
+
+    padding: 140px 30px;
+
+    background:
+        radial-gradient(
+            circle at 50% 20%,
+            rgba(75, 100, 255, 0.20),
+            transparent 32%
+        ),
+        radial-gradient(
+            circle at 15% 80%,
+            rgba(140, 70, 255, 0.10),
+            transparent 30%
+        ),
+        #070707;
+}
+
+
+.hero-content {
+    max-width: 1100px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.hero-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+
+    padding: 9px 16px;
+
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 100px;
+
+    background: rgba(255,255,255,0.035);
+
+    color: rgba(255,255,255,0.65);
+
+    font-size: 10px;
+    letter-spacing: 2.5px;
+}
+
+
+.status-dot {
+    width: 6px;
+    height: 6px;
+
+    border-radius: 50%;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 0 10px rgba(255,255,255,0.8);
+}
+
+
+.hero-content h1 {
+    margin: 35px 0 0;
+
+    font-size: clamp(65px, 11vw, 160px);
+
+    line-height: 0.86;
+
+    font-weight: 500;
+
+    letter-spacing: -8px;
+
+    background:
+        linear-gradient(
+            180deg,
+            #ffffff 0%,
+            #bcbcbc 100%
+        );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+}
+
+
+.hero-content h1 span {
+    display: block;
+
+    margin-top: 8px;
+
+    font-family: Georgia, serif;
+
+    font-style: italic;
+
+    font-weight: 400;
+
+    background:
+        linear-gradient(
+            90deg,
+            #ffffff,
+            #777777
+        );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+}
+
+
+.hero-content > p {
+    max-width: 650px;
+
+    margin: 42px auto 0;
+
+    color: rgba(255,255,255,0.55);
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+
+.hero-meta {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 60px;
+
+    margin-top: 65px;
+}
+
+
+.hero-meta div {
+    text-align: left;
+
+    min-width: 130px;
+}
+
+
+.hero-meta small {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 9px;
+
+    letter-spacing: 2px;
+
+    color: rgba(255,255,255,0.35);
+}
+
+
+.hero-meta strong {
+    font-size: 14px;
+
+    font-weight: 400;
+
+    color: rgba(255,255,255,0.8);
+}
+
+
+.hero-glow {
+    position: absolute;
+
+    border-radius: 50%;
+
+    pointer-events: none;
+
+    filter: blur(80px);
+
+    opacity: 0.35;
+}
+
+
+.glow-one {
+    width: 300px;
+    height: 300px;
+
+    background: #3155ff;
+
+    top: 20%;
+    left: -120px;
+}
+
+
+.glow-two {
+    width: 280px;
+    height: 280px;
+
+    background: #753cff;
+
+    bottom: -100px;
+    right: -80px;
+}
+
+
+.scroll-indicator {
+    position: absolute;
+
+    bottom: 35px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 12px;
+
+    opacity: 0.4;
+}
+
+
+.scroll-indicator span {
+    font-size: 8px;
+
+    letter-spacing: 2px;
+}
+
+
+.scroll-line {
+    width: 1px;
+
+    height: 45px;
+
+    background: linear-gradient(
+        to bottom,
+        rgba(255,255,255,0.8),
+        transparent
+    );
+}
+
+
+/* ============================================================
+   INTRO
+============================================================ */
+
+.intro-section {
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    padding: 150px 40px;
+
+    display: grid;
+
+    grid-template-columns: 100px 1fr;
+
+    gap: 40px;
+}
+
+
+.intro-number {
+    color: rgba(255,255,255,0.25);
+
+    font-size: 13px;
+
+    padding-top: 10px;
+}
+
+
+.intro-content {
+    max-width: 950px;
+}
+
+
+.section-label {
+    margin: 0 0 18px;
+
+    font-size: 10px;
+
+    letter-spacing: 3px;
+
+    color: rgba(255,255,255,0.38);
+}
+
+
+.intro-content h2 {
+    margin: 0;
+
+    max-width: 900px;
+
+    font-size: clamp(45px, 6vw, 85px);
+
+    line-height: 1;
+
+    font-weight: 400;
+
+    letter-spacing: -4px;
+}
+
+
+.intro-content h2 em {
+    display: block;
+
+    font-family: Georgia, serif;
+
+    font-weight: 400;
+
+    color: rgba(255,255,255,0.55);
+}
+
+
+.intro-description {
+    max-width: 650px;
+
+    margin-top: 45px;
+
+    color: rgba(255,255,255,0.5);
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+
+/* ============================================================
+   PROJECT SECTION
+============================================================ */
+
+.project-section {
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    padding: 130px 40px;
+}
+
+
+.section-heading {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 30px;
+
+    margin-bottom: 70px;
+}
+
+
+.section-index {
+    font-size: 12px;
+
+    color: rgba(255,255,255,0.35);
+
+    padding-top: 8px;
+}
+
+
+.section-heading h2 {
+    margin: 0;
+
+    font-size: clamp(45px, 6vw, 85px);
+
+    font-weight: 400;
+
+    letter-spacing: -4px;
+}
+
+
+/* ============================================================
+   FEATURED WEBSITE
+============================================================ */
+
+.featured-project {
+    margin-bottom: 80px;
+}
+
+
+.featured-image {
+    position: relative;
+
+    overflow: hidden;
+
+    background: #eeeeee;
+
+    border-radius: 2px;
+}
+
+
+.featured-image :global(img) {
+    width: 100%;
+
+    height: auto;
+
+    display: block;
+
+    transition:
+        transform 1s cubic-bezier(.2,.7,.2,1);
+}
+
+
+.featured-project:hover .featured-image :global(img) {
+    transform: scale(1.025);
+}
+
+
+.image-overlay {
+    position: absolute;
+
+    bottom: 25px;
+    left: 25px;
+
+    padding: 9px 14px;
+
+    background: rgba(0,0,0,0.65);
+
+    backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255,255,255,0.12);
+
+    border-radius: 100px;
+
+    font-size: 9px;
+
+    letter-spacing: 2px;
+}
+
+
+.featured-info {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 80px;
+
+    padding-top: 30px;
+}
+
+
+.project-category {
+    font-size: 9px;
+
+    letter-spacing: 2px;
+
+    color: rgba(255,255,255,0.35);
+}
+
+
+.featured-info h3 {
+    margin: 12px 0 0;
+
+    font-size: 30px;
+
+    font-weight: 400;
+}
+
+
+.featured-info > p {
+    margin: 0;
+
+    color: rgba(255,255,255,0.48);
+
+    line-height: 1.8;
+
+    max-width: 500px;
+}
+
+
+/* ============================================================
+   WEBSITE GRID
+============================================================ */
+
+.website-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 70px 35px;
+}
+
+
+.website-card {
+    min-width: 0;
+}
+
+
+.website-image {
+    position: relative;
+
+    overflow: hidden;
+
+    background: #eeeeee;
+}
+
+
+.website-image :global(img) {
+    width: 100%;
+
+    height: auto;
+
+    display: block;
+
+    transition:
+        transform 0.8s cubic-bezier(.2,.7,.2,1);
+}
+
+
+.website-card:hover .website-image :global(img) {
+    transform: scale(1.035);
+}
+
+
+.card-number {
+    position: absolute;
+
+    top: 18px;
+    left: 18px;
+
+    width: 34px;
+    height: 34px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: rgba(0,0,0,0.65);
+
+    backdrop-filter: blur(10px);
+
+    font-size: 9px;
+}
+
+
+.website-card-info {
+    padding-top: 22px;
+}
+
+
+.website-card-info > span {
+    font-size: 9px;
+
+    letter-spacing: 2px;
+
+    color: rgba(255,255,255,0.35);
+}
+
+
+.website-card-info h3 {
+    margin: 10px 0 8px;
+
+    font-size: 27px;
+
+    font-weight: 400;
+}
+
+
+.website-card-info p {
+    margin: 0;
+
+    max-width: 450px;
+
+    color: rgba(255,255,255,0.45);
+
+    line-height: 1.7;
+}
+
+
+/* ============================================================
+   APP SECTION
+============================================================ */
+
+.app-section {
+    position: relative;
+
+    overflow: hidden;
+
+    border-top: 1px solid rgba(255,255,255,0.08);
+
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+
+    background:
+        radial-gradient(
+            circle at 50% 20%,
+            rgba(50,80,255,0.08),
+            transparent 35%
+        ),
+        #090909;
+}
+
+
+.app-background-glow {
+    position: absolute;
+
+    width: 500px;
+    height: 500px;
+
+    border-radius: 50%;
+
+    background: rgba(55,80,255,0.08);
+
+    filter: blur(100px);
+
+    left: 50%;
+
+    top: 20%;
+
+    transform: translateX(-50%);
+}
+
+
+.app-intro {
+    max-width: 600px;
+
+    margin-top: -30px;
+
+    margin-bottom: 70px;
+
+    padding-left: 100px;
+}
+
+
+.app-intro p {
+    color: rgba(255,255,255,0.45);
+
+    line-height: 1.8;
+
+    font-size: 16px;
+}
+
+
+.app-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 22px;
+
+    align-items: start;
+}
+
+
+.app-card {
+    position: relative;
+
+    background:
+        linear-gradient(
+            145deg,
+            #151515,
+            #0d0d0d
+        );
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    overflow: hidden;
+
+    transition:
+        transform 0.5s ease,
+        border-color 0.5s ease;
+}
+
+
+.app-card:hover {
+    transform: translateY(-10px);
+
+    border-color: rgba(255,255,255,0.2);
+}
+
+
+.app-image {
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    overflow: hidden;
+
+    padding: 35px 20px 0;
+
+    background:
+        radial-gradient(
+            circle at 50% 50%,
+            rgba(255,255,255,0.08),
+            transparent 60%
+        );
+}
+
+
+.app-image :global(img) {
+    position: relative;
+
+    z-index: 2;
+
+    width: 100%;
+
+    max-width: 270px;
+
+    height: auto;
+
+    display: block;
+
+    filter: drop-shadow(
+        0 25px 35px rgba(0,0,0,0.55)
+    );
+
+    transition:
+        transform 0.7s cubic-bezier(.2,.7,.2,1);
+}
+
+
+.app-card:hover .app-image :global(img) {
+    transform: translateY(-8px) scale(1.025);
+}
+
+
+.phone-glow {
+    position: absolute;
+
+    width: 150px;
+    height: 300px;
+
+    background: rgba(70,90,255,0.12);
+
+    filter: blur(55px);
+
+    top: 25%;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+}
+
+
+.app-info {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 15px;
+
+    padding: 25px;
+}
+
+
+.app-number {
+    font-size: 10px;
+
+    color: rgba(255,255,255,0.3);
+}
+
+
+.app-info span {
+    font-size: 8px;
+
+    letter-spacing: 2px;
+
+    color: rgba(255,255,255,0.35);
+}
+
+
+.app-info h3 {
+    margin: 7px 0 0;
+
+    font-size: 21px;
+
+    font-weight: 400;
+}
+
+
+/* ============================================================
+   DETAILS
+============================================================ */
+
+.details-section {
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    padding: 160px 40px;
+}
+
+
+.details-grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 120px;
+}
+
+
+.details-title h2 {
+    margin: 0;
+
+    max-width: 600px;
+
+    font-size: clamp(45px, 5vw, 75px);
+
+    line-height: 1;
+
+    letter-spacing: -4px;
+
+    font-weight: 400;
+}
+
+
+.details-title h2 em {
+    display: block;
+
+    font-family: Georgia, serif;
+
+    color: rgba(255,255,255,0.5);
+}
+
+
+.details-list {
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+
+.detail-row {
+    display: grid;
+
+    grid-template-columns: 50px 1fr;
+
+    gap: 20px;
+
+    padding: 25px 0;
+
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+
+.detail-row > span {
+    font-size: 10px;
+
+    color: rgba(255,255,255,0.3);
+}
+
+
+.detail-row small {
+    display: block;
+
+    margin-bottom: 7px;
+
+    font-size: 8px;
+
+    letter-spacing: 2px;
+
+    color: rgba(255,255,255,0.3);
+}
+
+
+.detail-row strong {
+    font-size: 15px;
+
+    font-weight: 400;
+
+    color: rgba(255,255,255,0.75);
+}
+
+
+/* ============================================================
+   ENDING
+============================================================ */
+
+.project-ending {
+    position: relative;
+
+    min-height: 75vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    overflow: hidden;
+
+    border-top: 1px solid rgba(255,255,255,0.08);
+
+    background:
+        radial-gradient(
+            circle at 50% 50%,
+            rgba(80,80,255,0.12),
+            transparent 38%
+        ),
+        #070707;
+}
+
+
+.ending-content {
+    position: relative;
+
+    z-index: 2;
+
+    padding: 80px 30px;
+}
+
+
+.ending-content > span {
+    font-size: 9px;
+
+    letter-spacing: 3px;
+
+    color: rgba(255,255,255,0.35);
+}
+
+
+.ending-content h2 {
+    max-width: 950px;
+
+    margin: 30px auto 55px;
+
+    font-size: clamp(50px, 8vw, 110px);
+
+    line-height: 0.95;
+
+    letter-spacing: -6px;
+
+    font-weight: 400;
+}
+
+
+.ending-content h2 em {
+    display: block;
+
+    font-family: Georgia, serif;
+
+    color: rgba(255,255,255,0.5);
+}
+
+
+.back-button {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 14px 20px;
+
+    border: 1px solid rgba(255,255,255,0.16);
+
+    border-radius: 100px;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    font-size: 11px;
+
+    letter-spacing: 1px;
+
+    background: rgba(255,255,255,0.04);
+
+    transition:
+        background 0.3s ease,
+        transform 0.3s ease,
+        border-color 0.3s ease;
+}
+
+
+.back-button:hover {
+    background: rgba(255,255,255,0.1);
+
+    border-color: rgba(255,255,255,0.3);
+
+    transform: translateY(-3px);
+}
+
+
+.back-button span {
+    font-size: 16px;
+}
+
+
+.ending-glow {
+    position: absolute;
+
+    width: 500px;
+    height: 500px;
+
+    border-radius: 50%;
+
+    background: rgba(80,70,255,0.12);
+
+    filter: blur(100px);
+}
+
+
+/* ============================================================
+   RESPONSIVE — TABLET
+============================================================ */
+
+@media (max-width: 1000px) {
+
+    .project-section {
+        padding: 100px 30px;
+    }
+
+
+    .intro-section {
+        padding: 110px 30px;
+    }
+
+
+    .app-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 25px;
+    }
+
+
+    .details-grid {
+        gap: 60px;
+    }
+
+}
+
+
+/* ============================================================
+   RESPONSIVE — MOBILE
+============================================================ */
+
+@media (max-width: 700px) {
+
+    .autonomo-hero {
+        min-height: 90vh;
+
+        padding: 100px 20px;
+    }
+
+
+    .hero-content h1 {
+        font-size: clamp(55px, 18vw, 95px);
+
+        letter-spacing: -5px;
+    }
+
+
+    .hero-content > p {
+        font-size: 15px;
+
+        margin-top: 30px;
+    }
+
+
+    .hero-meta {
+        gap: 25px;
+
+        margin-top: 45px;
+
+        flex-wrap: wrap;
+    }
+
+
+    .hero-meta div {
+        min-width: auto;
+
+        text-align: center;
+    }
+
+
+    .intro-section {
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+
+        padding: 90px 20px;
+    }
+
+
+    .intro-number {
+        padding: 0;
+    }
+
+
+    .intro-content h2 {
+        font-size: clamp(40px, 12vw, 65px);
+
+        letter-spacing: -3px;
+    }
+
+
+    .project-section {
+        padding: 90px 20px;
+    }
+
+
+    .section-heading {
+        gap: 18px;
+
+        margin-bottom: 45px;
+    }
+
+
+    .section-heading h2 {
+        font-size: clamp(40px, 12vw, 65px);
+
+        letter-spacing: -3px;
+    }
+
+
+    .website-grid {
+        grid-template-columns: 1fr;
+
+        gap: 55px;
+    }
+
+
+    .featured-info {
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+    }
+
+
+    .app-intro {
+        padding-left: 0;
+
+        margin-top: -20px;
+    }
+
+
+    .app-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 12px;
+    }
+
+
+    .app-image {
+        padding: 18px 10px 0;
+    }
+
+
+    .app-info {
+        padding: 15px;
+
+        gap: 8px;
+    }
+
+
+    .app-info h3 {
+        font-size: 16px;
+    }
+
+
+    .app-info span {
+        font-size: 7px;
+
+        letter-spacing: 1px;
+    }
+
+
+    .details-section {
+        padding: 100px 20px;
+    }
+
+
+    .details-grid {
+        grid-template-columns: 1fr;
+
+        gap: 60px;
+    }
+
+
+    .details-title h2 {
+        font-size: clamp(42px, 12vw, 65px);
+
+        letter-spacing: -3px;
+    }
+
+
+    .project-ending {
+        min-height: 70vh;
+    }
+
+
+    .ending-content h2 {
+        font-size: clamp(48px, 13vw, 80px);
+
+        letter-spacing: -4px;
+    }
+
+}
+
+
+/* ============================================================
+   SMALL MOBILE
+============================================================ */
+
+@media (max-width: 420px) {
+
+    .hero-meta {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 25px;
+    }
+
+
+    .app-grid {
+        gap: 10px;
+    }
+
+
+    .app-number {
+        display: none;
+    }
+
+
+    .app-info {
+        padding: 13px;
+    }
+
+}
+
+</style>
